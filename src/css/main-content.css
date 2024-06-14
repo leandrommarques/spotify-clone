@@ -79,17 +79,17 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .header__login .subscribe:hover{
   color: #f3f2f2;
   font-size: 16px;
-  background-color: #b4b4b4;
   border-radius: 40px;
-  height: 38px;
-  transition: 0.3s
+  height: 39px;
+  width: 76%;
+  transform: scale(1.1);
   
-    
 }
 
 .header__login .login{
@@ -99,17 +99,18 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .header__login .login:hover{
   width: 100px;
   height: 48px;
-  color: #f3f2f2;
-  background-color: #b4b4b4;
+  color: #ffffff;
+  background-color: #1DB954;
   font-size: 16px;
   font-weight: 700;
   border-radius: 40px;
-  transition: 0.3s
+  transform: scale(1.1) ;
 }
 
 
