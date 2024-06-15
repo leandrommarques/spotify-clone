@@ -130,7 +130,7 @@ body {
     font-size: 12px;
 }
 
-.section-playlist__content .section-playlist__button{
+.section-playlist__content .btn-criar-playlist{
     display: flex;
     justify-content: center;
     background-color: #fff;

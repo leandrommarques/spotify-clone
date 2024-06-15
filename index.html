@@ -66,9 +66,18 @@
                 <div class="section-playlist__content">
                     <span class="text title"> Crie sua primeira playlist</span>
                     <span class="text subtitle">É fácil, vamos te ajudar!</span>
-                    <button class="section-playlist__button">
+                    <button class="btn-criar-playlist" onclick="openModal()">
                         <span>Criar playlist</span>
                     </button>
+
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-title">Criar uma Playlist</div>
+                            <div class="modal-message">Faça login para criar e compartilhar playlists.</div>
+                            <button class="btn btn-secondary" onclick="closeModal()">Agora não</button>
+                            <button class="btn btn-primary" onclick="login()">Entrar</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 
