@@ -114,7 +114,76 @@ body {
 .section-playlist .section-playlist__content{
     display: flex;
     flex-direction: column;
+    
 }
+
+
+.section-playlist .section-playlist__content .modal{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.section-playlist__content .modal-content{
+    background-color: #1e6fe9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.section-playlist__content .modal-content .btn{
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: transparent;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.section-playlist__content .modal-content .btn.btn-secondary{
+    color: #aaaaaa;
+    transition: transform 0.2s ease-in-out;
+}
+
+.section-playlist__content .modal-content .btn.btn-secondary:hover{
+    color: #ffff;
+    transform: scale(1.1);
+}
+
+.section-playlist__content .modal-content .btn.btn-primary{
+    color: #000000;
+    background-color: #d4d4d4;
+    border-radius: 20px;
+    padding: 10px 18px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.section-playlist__content .modal-content .btn.btn-primary:hover{
+    background-color: #ffff;
+    transform: scale(1.1);
+}
+
+.section-playlist__content .modal-title{
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.section-playlist__content .modal-message{
+    font-size: 14px;
+    color: #d4d4d4;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
 
 .section-playlist__content .text{
     padding-bottom: 14px;

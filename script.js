@@ -1,6 +1,10 @@
 const searchInput = document.getElementById('search-input');
 const resultArtist = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById('result-playlists');
+const modal = document.getElementById('modal');
+const btnCriarPlaylist = document.querySelector('.btn-criar-palylist');
+const btnAgoraNao = document.querySelector('.btn-secondary');
+const btnEntrar= document.querySelector('.btn-primary');
 
 function requestApi(searchTerm) {
     const url = `http://localhost:3000/artists?name_like=${searchTerm}`
@@ -32,7 +36,25 @@ document.addEventListener('input', function() {
     }
 
     requestApi(searchTerm);
-})
+});
+
+function openModal(){
+    modal.style.display = 'flex';
+}
+
+function closeModal(){
+    modal.style.display = 'none';
+}
+
+function login(){
+    alert("Redirecionando para a página de login...")
+}
+
+
+
+btnCriarPlaylist.addEventListener('click' , openModal);
+btnAgoraNao.addEventListener('click' , closeModal);
+btnEntrar.addEventListener('click' , login); 
 
 
 
