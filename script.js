@@ -47,7 +47,7 @@ function closeModal(){
 }
 
 function login(){
-    alert("Redirecionando para a página de login...")
+    window.open('https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fopen.spotify.com%2Fintl-pt' ,'_blank');
 }
 
 

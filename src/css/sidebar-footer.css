@@ -154,20 +154,20 @@ body {
 
 .section-playlist__content .modal-content .btn.btn-secondary:hover{
     color: #ffff;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .section-playlist__content .modal-content .btn.btn-primary{
     color: #000000;
-    background-color: #d4d4d4;
+    background-color: #f1f1f1;
     border-radius: 20px;
     padding: 10px 18px;
     transition: transform 0.2s ease-in-out;
 }
 
 .section-playlist__content .modal-content .btn.btn-primary:hover{
-    background-color: #ffff;
-    transform: scale(1.1);
+    background-color: #bdbdbd;
+    transform: scale(1.05);
 }
 
 .section-playlist__content .modal-title{
